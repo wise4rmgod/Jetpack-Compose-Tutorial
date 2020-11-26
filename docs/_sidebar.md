@@ -3,6 +3,5 @@
 - Getting started
 
 - [Home](/)
-- [Tomcat](Overview.md)
-- [Tutorials](./tutorials/index)
+- [Tomcat](overview.md)
   
