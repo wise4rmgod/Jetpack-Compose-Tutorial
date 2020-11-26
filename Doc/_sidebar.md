@@ -1,8 +1,13 @@
-<!-- _navbar.md -->
+  <!-- docs/_sidebar.md -->
 
-* Getting started
 
-  * [Quick start](quickstart.md)
-  * [Writing more pages](more-pages.md)
-  * [Custom navbar](custom-navbar.md)
-  * [Cover page](cover.md)
+* [HOME](./)
+
+* [Tutorials](./tutorials/index)
+  * [Tomcat](./tutorials/tomcat/index)
+  * [Cloud](./tutorials/cloud/index)
+  * [Java](./tutorials/java/index)
+
+* [About](./about/index)
+
+* [Contact](./contact/index)
