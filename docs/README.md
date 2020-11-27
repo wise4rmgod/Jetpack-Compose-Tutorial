@@ -36,7 +36,7 @@ Jetpack Compose is Android’s modern toolkit for building native UI. It simplif
 
 ## Why Jetpack Compose?
 
-| Option | Description |
+| Reason | Description |
 | ------ | ----------- |
 | Concise and Idiomatic Kotlin   | Built with the benefits that Kotlin brings. |
 | Declarative | Fully declarative for defining UI components. |
@@ -46,8 +46,6 @@ Jetpack Compose is Android’s modern toolkit for building native UI. It simplif
 | Accelerate Development    | writing less code and using tools. |
 | One codebase    |  No need to write XML anymore. |
 | Less code    | Do more with less code and avoid entire classes of bugs, so code is simple and easy to maintain. |
-| ext    | extension to be used for dest files. |
-| ext    | extension to be used for dest files. |
 
 > Jetpack Compose is currently in Developer Preview. The API surface is not yet finalized, and should not be used in production apps.
 
