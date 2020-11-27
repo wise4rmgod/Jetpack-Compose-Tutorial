@@ -1,5 +1,0 @@
-# Config options for 'simplex' theme
-
-extends: mkdocs
-
-hljs_style: atelier-forest-light

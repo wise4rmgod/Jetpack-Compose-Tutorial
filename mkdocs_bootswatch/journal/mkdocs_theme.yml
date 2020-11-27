@@ -1,5 +1,0 @@
-# Config options for 'journal' theme
-
-extends: mkdocs
-
-hljs_style: atelier-forest-light

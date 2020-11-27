@@ -1,5 +1,3 @@
-recursive-include mkdocs_bootswatch *.ico *.js *.css *.png *.html *.eot *.svg *.ttf *.woff *.yml
+recursive-include mkdocs_docskimmer *.ico *.js *.css *.png *.html *.eot *.svg *.ttf *.woff
 recursive-exclude * __pycache__
 recursive-exclude * *.py[co]
-include LICENSE
-include bootswatch.LICENSE

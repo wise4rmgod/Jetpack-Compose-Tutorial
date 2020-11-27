@@ -1,5 +1,0 @@
-# Config options for 'superhero' theme
-
-extends: mkdocs
-
-hljs_style: obsidian

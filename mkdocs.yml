@@ -1,18 +1,28 @@
-site_name: MkDocs Bootswatch Themes
-site_url: https://mkdocs.github.io/mkdocs-bootswatch/
-site_description: MkDocs Bootswatch Themes
-site_author: Tom Christie & Dougal Matthews
+site_name: docSkimmer theme
+site_description: An accessible skimmable theme for documentation sites built using MkDocs
+site_author: Heini Fagerlund
 
-repo_url: https://github.com/mkdocs/mkdocs-bootswatch
+site_url: https://hfagerlund.github.io/mkdocs-docskimmer
+repo_url: https://github.com/hfagerlund/mkdocs-docskimmer/
 
-copyright: Copyright &copy; 2014 <a href="https://twitter.com/_tomchristie">Tom Christie</a>, <a href="http://www.dougalmatthews.com/">Dougal Matthews</a>.
+nav:
+    - Intro: index.md
+    - Examples:
+        - Sample1: examples/sample-page.md
+        - Sample2: examples/another-sample-page.md
 
 theme:
-    name: flatly
+  name: null
+  custom_dir: 'mkdocs_docskimmer'
+  include_search_page: true
+  search_index_only: false
+  static_templates:
+  - 404.html
 
-markdown_extensions:
-    - toc:
-        permalink: '#'
+plugins: ['search']
 
-plugins:
-    - search
+extra:
+    version: 0.4.0
+
+copyright: Copyright &copy; 2017 Heini Fagerlund
+google_analytics: ['UA-38407980-4', 'auto']

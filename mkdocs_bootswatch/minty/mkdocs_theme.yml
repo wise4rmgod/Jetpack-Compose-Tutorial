@@ -1,5 +1,0 @@
-# Config options for 'minty' theme
-
-extends: mkdocs
-
-hljs_style: atelier-cave-light

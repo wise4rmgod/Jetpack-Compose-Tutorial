@@ -1,5 +1,0 @@
-# Config options for 'darkly' theme
-
-extends: mkdocs
-
-hljs_style: rainbow

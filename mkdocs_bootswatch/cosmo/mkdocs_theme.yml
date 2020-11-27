@@ -1,5 +1,0 @@
-# Config options for 'cosmo' theme
-
-extends: mkdocs
-
-hljs_style: purebasic
