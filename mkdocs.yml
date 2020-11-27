@@ -1,21 +1,18 @@
-site_name: Cinder
-site_url: https://sourcefoundry.org/cinder/
-site_author: Christopher Simpkins
-site_description: "A clean, responsive theme for static documentation websites that are generated with MkDocs"
-repo_url: "https://github.com/chrissimpkins/cinder"
-copyright: "Cinder is licensed under the <a href='https://github.com/chrissimpkins/cinder/blob/master/LICENSE.md'>MIT license</a>"
+site_name: MkDocs Bootswatch Themes
+site_url: https://mkdocs.github.io/mkdocs-bootswatch/
+site_description: MkDocs Bootswatch Themes
+site_author: Tom Christie & Dougal Matthews
+
+repo_url: https://github.com/mkdocs/mkdocs-bootswatch
+
+copyright: Copyright &copy; 2014 <a href="https://twitter.com/_tomchristie">Tom Christie</a>, <a href="http://www.dougalmatthews.com/">Dougal Matthews</a>.
 
 theme:
-  name: null
-  custom_dir: cinder
-  colorscheme: github
-  highlightjs: true
-
-nav:
-  - Home: index.md
-  - Specimen: specimen.md
+    name: flatly
 
 markdown_extensions:
-  - admonition
-  - toc:
-      permalink: true
+    - toc:
+        permalink: '#'
+
+plugins:
+    - search

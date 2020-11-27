@@ -1,5 +1,5 @@
-recursive-include cinder *.ico *.js *.css *.png *.html *.eot *.svg *.ttf *.woff *.woff2 *.yml
+recursive-include mkdocs_bootswatch *.ico *.js *.css *.png *.html *.eot *.svg *.ttf *.woff *.yml
 recursive-exclude * __pycache__
 recursive-exclude * *.py[co]
-include README.md
-include LICENSE.md
+include LICENSE
+include bootswatch.LICENSE
