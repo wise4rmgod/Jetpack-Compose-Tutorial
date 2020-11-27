@@ -1,3 +1,5 @@
 - [Overview](README.md)
-- [Layout](layout.md)
-- [Syntax](syntax.md)
+- [Environment set up](layout.md)
+- [Hello World example](syntax.md)
+- [UI Layouts](uilayout.md)
+
