@@ -17,7 +17,7 @@ fun TextFieldExample() {
     }
 }
 ```
-** Retrieving the Value **
+**Retrieving the Value**
 
 Getting the value of the text entered into an EditText is as follows:
 > remember function will save your state for later use
