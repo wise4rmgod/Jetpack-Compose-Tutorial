@@ -1,2 +1,2 @@
 ## compose tutorial
-This is a Jetpack Compose Course for Beginners 
+This is a Jetpack Compose tutorial for Beginners 
