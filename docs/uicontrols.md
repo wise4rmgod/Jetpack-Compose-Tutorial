@@ -33,4 +33,15 @@ to add the value gotten from the Textfield to a Text or any other UI control tha
  Text( textState.value.text)
 
 ```
+
+**Customizing the Input Type**
+By default, any text contents within a Textfield control is displayed as plain text. By setting inputType, we can facilitate input of different types of information, 
+like phone numbers:
+
+| Type | Description |
+| ------ | ----------- |
+| number | A numeric only field |
+| phone | For entering a phone number |
+
+
 ### Button
