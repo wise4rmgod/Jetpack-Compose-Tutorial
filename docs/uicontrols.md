@@ -35,6 +35,7 @@ to add the value gotten from the Textfield to a Text or any other UI control tha
 ```
 
 **Customizing the Input Type**
+
 By default, any text contents within a Textfield control is displayed as plain text. By setting inputType, we can facilitate input of different types of information, 
 like phone numbers:
 
