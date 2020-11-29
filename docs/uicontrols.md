@@ -17,5 +17,20 @@ fun TextFieldExample() {
     }
 }
 ```
+** Retrieving the Value **
 
+Getting the value of the text entered into an EditText is as follows:
+> remember function will save your state for later use
+```
+ val textState = remember { mutableStateOf(TextFieldValue()) }
+   TextField(
+                value = textState.value,
+                onValueChange = { textState.value = it }
+        )
+```
+to add the value gotten from the Textfield to a Text or any other UI control that can accept it, you will use the below code 
+```
+ Text( textState.value.text)
+
+```
 ### Button

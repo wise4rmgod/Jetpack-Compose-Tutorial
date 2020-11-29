@@ -11,7 +11,7 @@ you will click o the “Empty Compose Activity”
 
 ![Welcome to jetpackcompose.com](https://miro.medium.com/max/1400/1*1DHAKWDaaZeKS1Tbdj2WNA.png)
 
-In this section, you give your compose project a name, package name, save location, language(default is Kotlin) and Minimum SDK. then you click the ***“Finish”*** button
+In this section, you give your compose project a name, package name, save location, language(default is Kotlin) and Minimum SDK. then you click the **“Finish”** button
 
 ![Welcome to jetpackcompose.com](https://miro.medium.com/max/1400/1*mwyZ9T3qe3qrMNHxEyydog.png)
 
