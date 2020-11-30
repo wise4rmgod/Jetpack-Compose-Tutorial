@@ -3,7 +3,21 @@ A layout defines the visual structure for a user interface, such as the UI for a
 ![Welcome to jetpackcompose.com](https://miro.medium.com/max/1400/1*dG8pfE-agjdIL1hyr0IHVA.png)
 
 This section will focus more on creating a UI based on compose layout.
-> A layout may contain any type of widgets such as Fabs, buttons, , Textfield,Text etc.
+> A layout may contain any type of widgets such as Fabs, buttons,Radio button , Textfield,Text etc.
+
+Before we proceed let's talk about Scaffold and its importance.
+
+#Scaffold
+
+A Scaffold class used to Implements the basic material design visual layout structure.
+
+```
+
+
+
+
+```
+
 ## Jetpack Commpose Layout types:
 **Column:** A Column will show each child below the previous children. It’s similar to a LinearLayout with vertical orientation.
 ```
