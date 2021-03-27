@@ -3,6 +3,7 @@
 - [Hello World example](helloworld.md)
 - [UI Layouts](uilayout.md)
 - [UI Controls](uicontrols.md)
+- [Life Cycle](lifecycle.md)
 - [State Management](state.md)
 - [Navigation](uicontrols.md)
 - [Styles and Theme](uicontrols.md)
