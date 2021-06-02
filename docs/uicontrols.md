@@ -163,27 +163,43 @@ fun CheckBoxDemo() {
 
 ### Snackbar
 
-A Snackbars provide lightweight feedback about an operation. They show a brief message at the bottom of the screen on mobile
+A Snackbar provides lightweight feedback about an operation. They show brief messages at the bottom of the screen on mobile
 
 ```
 
-
 @Composable
-fun CheckBoxDemo() {
-    val checkedState = remember { mutableStateOf(true) }
-    Checkbox(
-        checked = checkedState.value,
-        onCheckedChange = { checkedState.value = it }
+fun SnackbarSample(){
+    val scaffoldState = rememberScaffoldState()
+    val scope = rememberCoroutineScope()
+    Scaffold(
+        scaffoldState = scaffoldState,
+        floatingActionButton = {
+            var clickCount by remember { mutableStateOf(0) }
+            ExtendedFloatingActionButton(
+                text = { Text("Show snackbar") },
+                onClick = {
+                    // show snackbar as a suspend function
+                    scope.launch {
+                        scaffoldState.snackbarHostState.showSnackbar("Snackbar # ${++clickCount}")
+                    }
+                }
+            )
+        },
+        content = { innerPadding ->
+            Text(
+                text = "Body content",
+                modifier = Modifier.padding(innerPadding).fillMaxSize().wrapContentSize()
+            )
+        }
     )
 }
-
 
 
 ```
 
 ### Slider
 
-A Snackbars provide lightweight feedback about an operation. They show a brief message at the bottom of the screen on mobile
+Sliders allow users to make selections from a range of values.
 
 ```
 
@@ -192,10 +208,9 @@ A Snackbars provide lightweight feedback about an operation. They show a brief m
 fun SliderExample() {
     var slider by remember { mutableStateOf(0f) }
     Text(text = slider.toString())
-    Slider(value = slider, onValueChange = { slider = it })
+    Slider(value = slider, valueRange: ClosedFloatingPointRange<Float> = 0f..1f, onValueChange = { slider = it })
+
 }
-
-
 
 ```
 
@@ -205,12 +220,10 @@ A floating action button (FAB) is a circular button that triggers the primary ac
 
 ```
 
-
 @Composable
-fun SliderExample() {
-    var slider by remember { mutableStateOf(0f) }
-    Text(text = slider.toString())
-    Slider(value = slider, onValueChange = { slider = it })
+fun FloatingActionButtonSample() {
+    FloatingActionButton(onClick = { /*do something*/ }) {
+        Icon(Icons.Filled.Favorite, contentDescription = "Localized description")
 }
 
 
