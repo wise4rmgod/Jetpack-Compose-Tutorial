@@ -21,9 +21,14 @@ if you run the above code you will notice that the text widget changes it defaul
  - Composition
  - Recomposition
 
-### Remember function 
+## Remember function 
 A remember is a composable function that can store a single object in memory and also it can hold any value from initial composition to recomposition stage(it ) 
 > remember can store both mutable and immutable objects
 
-### MutableStateOf
+## MutableStateOf
  A MutableStateOf 
+ 
+## Composition
+
+
+## Recomposition
