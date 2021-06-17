@@ -45,7 +45,7 @@ like phone numbers:
 | number | A numeric only field |
 | phone | For entering a phone number |
 
-### Text
+## Text
 
 A TextView displays text to the user 
 
@@ -62,7 +62,7 @@ fun TextExample() {
 ```
 
 
-### Button
+## Button
 
 A Button is a user interface control that is used to perform an action whenever the user clicks or tap on it
 
@@ -81,7 +81,7 @@ fun ButtonExample() {
 
 ```
 
-### Radio Button
+## Radio Button
 
 A RadioButton is a two states button which is either checked or unchecked
 
@@ -122,7 +122,7 @@ fun RadioButtonExample() {
 
 ```
 
-### Switch
+## Switch
 
 A Switch is a two-state toggle switch widget that can select between two options
 
@@ -140,7 +140,7 @@ fun SwitchExample() {
 
 ```
 
-### Checkbox
+## Checkbox
 
 A checkbox is a specific type of two-states button that can be either checked or unchecked.
 
@@ -161,7 +161,7 @@ fun CheckBoxDemo() {
 ```
 
 
-### Snackbar
+## Snackbar
 
 A Snackbar provides lightweight feedback about an operation. They show brief messages at the bottom of the screen on mobile
 
@@ -197,7 +197,7 @@ fun SnackbarSample(){
 
 ```
 
-### Slider
+## Slider
 
 Sliders allow users to make selections from a range of values.
 
@@ -214,7 +214,7 @@ fun SliderExample() {
 
 ```
 
-### FloatingActionButton
+## FloatingActionButton
 
 A floating action button (FAB) is a circular button that triggers the primary action in your app's UI.
 
@@ -231,7 +231,7 @@ fun FloatingActionButtonSample() {
 ```
 
 
-### AlertDialog
+## AlertDialog
 
 An Android AlertDialog can be used to display the dialog message with OK and Cancel buttons. 
 It can be used to interrupt and ask the user about his/her choice to continue or discontinue. 
@@ -296,7 +296,7 @@ fun AlertDialogSample() {
 
 ```
 
-### ModalDrawerLayout
+## ModalDrawerLayout
 
 A ModalDrawerLayout is used to implement the Navigation drawer. 
 
@@ -332,7 +332,7 @@ fun ModalDrawerLayoutSample() {
 
 ```
 
-### Card
+## Card
 
 A card is a sheet of material that serves as an entry point to more detailed information. Cards may contain a photo, text, and a link about a single subject. 
 They may display content containing elements of varying size, such as photos with captions of variable length. (from: Google Material Design)
